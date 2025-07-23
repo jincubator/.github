@@ -4,6 +4,8 @@
 
 Here you'll find work on Solving, Arbitrage and Indexing using [Tycho](https://docs.propellerheads.xyz/tycho/overview), Intents using [ERC-7683](https://www.erc7683.org/spec), [EIP-712](https://eips.ethereum.org/EIPS/eip-712), [Compactx](https://github.com/uniswap/compactx) and [Uniswap V4 Hooks](https://docs.uniswap.org/contracts/v4/overview). As of July 2025 I use [jincubator](https://github.com/jincubator) for research and development of prototypes.
 
+> ⚠️ **Note:** Development is ongoing and some repositories are private.
+
 ## Abstract
 
 Liquidity Fragmentation and Capital Efficiency are areas that can be optimized in Blockchain protocols, with the emergence of Multiple L2 Chains and a shift towards intent-based architectures. There is a greater need than ever for a settlement layer to balance provided liquidity.
@@ -38,7 +40,7 @@ It aims to provide the following
 - Settlement Layer used by Solvers and Liquidity Providers used to rebalance funds across chains.
 - Advanced Indexing and Simulation capabilities to enable a global view of liquidity, swap prices and arbitrage opportunities
 
-## Opinionated Sample Architecture from [jincubator](https://github.com/jincubator)
+## Opinionated Sample Architecture
 
 This is an opinionated architecture for an intent based solving protocol which facilitates single and mult-chain solving of intents. Intents can be solved on a single chain without provisioning up front capital as we arbiters can confirm mandates have been met by solvers at execution time, thus solvers may used the swappers locked funds for execution.
 
