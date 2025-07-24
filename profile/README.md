@@ -10,35 +10,7 @@ Here you'll find work on Solving, Arbitrage and Indexing using [Tycho](https://d
 
 Liquidity Fragmentation and Capital Efficiency are areas that can be optimized in Blockchain protocols, with the emergence of Multiple L2 Chains and a shift towards intent-based architectures. There is a greater need than ever for a settlement layer to balance provided liquidity.
 
-Project Description: Jincubator (Working Name) provides infrastructure and services for multi-chain, intent-based protocols, leveraging hooks built on Uniswap V4.
-
-It aims to provide the following
-
-**Features of the Solution**
-
-- Pool Functionality
-  - JIT Liquidity Provisioning,
-  - Dynamic Fees to reduce arbitrage,
-  - Gas Manager allows users to pay for gas using their swap token instead of the native token,
-  - Incentivization Tools for Pools to incentivize Liquidity Providers,
-- Order Flow
-  - Intent Solving infrastructure providing traders with the best value for their swap,
-  - SlowTrack and Fastrak - Settlement Options,
-- Capital Efficiency
-  - Settlement Layer with Dynamic Rebalancing of Capital Across Chains,
-  - JIT provisioning of liquidity to pools as needed which integrates with Yield Earning Protocols.,
-  - Arbitraging Liquidity across Pools, Protocols, and Chains
-
-
-**Solution we are implementing**
-
-- Intent Based - Cross Chain Solving
-- Dynamic Cross-Chain Capital Allocation for Liquidity Providers
-- JIT Liquidity Provisioning for Pools
-- Yield Earning Capabilities for unitilized liquidity
-- Centralized Liquidity Pool which is dynamically allocated
-- Settlement Layer used by Solvers and Liquidity Providers used to rebalance funds across chains.
-- Advanced Indexing and Simulation capabilities to enable a global view of liquidity, swap prices and arbitrage opportunities
+This is an opinionated architecture for an intent based solving protocol which facilitates single and multichain solving of intents. Intents can be solved on a single chain without provisioning up front capital as we arbiters can confirm mandates have been met by solvers at execution time, thus solvers may use the swappers locked funds for execution.
 
 ## Opinionated Sample Architecture
 
